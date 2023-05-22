@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Deploy with gh-pages
         run: |
-          npx run build
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/victorcesae/letmeask.git
           npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
