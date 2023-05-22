@@ -7,8 +7,8 @@ on:
 
 jobs:
   build-and-deploy:
-    concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Deploy with gh-pages
       run: |
