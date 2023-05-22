@@ -5,9 +5,7 @@ import "../../styles/room.scss";
 import useRoom from "../../hooks/useRoom";
 import CreateQuestion from "../../components/CreateQuestion";
 import QuestionsContainer from "../../components/QuestionsContainer";
-import { useNavigate, useParams } from "react-router-dom";
-import { database } from "../../services/firebase";
-import { useAuth } from "../../hooks/useAuth";
+import { useParams } from "react-router-dom";
 
 type RoomParamsProps = {
   id: string;
