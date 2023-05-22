@@ -1,6 +1,6 @@
 {
   "name": "nlw_react",
-  "homepage": "https://victorcesae.github.io/letmeask/",
+  "homepage": "letmeask/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
