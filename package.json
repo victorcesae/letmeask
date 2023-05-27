@@ -2,7 +2,7 @@
   "name": "letmeask",
   "private": true,
   "version": "0.0.0",
-  "homepage": "/letmeask",
+  "homepage": "https://victorcesae.github.io/letmeask",
   "type": "module",
   "scripts": {
     "dev": "vite",
