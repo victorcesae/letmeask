@@ -4,8 +4,7 @@ import App from "./App";
 import "./services/firebase";
 
 import "./styles/global.scss";
-
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
+import React from "react";
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+  <App />
 );
-root.render(<App />);
