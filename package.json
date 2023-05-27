@@ -1,9 +1,9 @@
 {
   "name": "letmeask",
-  "version": "0.0.0",
-  "type": "module",
-  "homepage": "https://victorcesae.github.io/letmeask/",
   "private": true,
+  "version": "0.0.0",
+  "homepage": "https://victorcesae.github.io/letmeask",
+  "type": "module",
   "dependencies": {
     "firebase": "^9.6.11",
     "gh-pages": "^5.0.0",
