@@ -6,7 +6,6 @@
   "type": "module",
   "dependencies": {
     "firebase": "^9.6.11",
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
@@ -30,6 +29,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@types/react-router-dom": "^5.3.3",
