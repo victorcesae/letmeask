@@ -2,18 +2,8 @@
   "name": "letmeask",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://victorcesae.github.io/letmeask",
+  "homepage": "/letmeask",
   "type": "module",
-  "dependencies": {
-    "firebase": "^9.6.11",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1",
-    "sass": "^1.50.0",
-    "typescript": "^4.6.3",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
@@ -27,6 +17,16 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "dependencies": {
+    "firebase": "^9.6.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.50.0",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
