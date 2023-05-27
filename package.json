@@ -2,7 +2,7 @@
   "name": "letmeask",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://victorcesae.github.io/letmeask",
+  "homepage": "https://victorcesae.github.io/letmeask/",
   "private": true,
   "dependencies": {
     "firebase": "^9.6.11",
@@ -16,8 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "vite",
-    "predeploy": "yarn build",
+    "dev": "vite",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
