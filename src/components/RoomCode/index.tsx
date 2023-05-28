@@ -2,16 +2,24 @@ import { useRef } from "react";
 import copyImg from "../../assets/images/copy.svg";
 
 import "./style.scss";
+import { useAuth } from "../../hooks/useAuth";
+import useRoom from "../../hooks/useRoom";
+import { useParams } from "react-router-dom";
 
 type RoomCodeProps = {
   code: string | undefined;
+};
+type RoomParamsProps = {
+  id: string;
 };
 
 export function RoomCode(props: RoomCodeProps) {
   const dialogRef = useRef<any>(null);
   function copyRoomCodeToClipboard() {
     if (!props.code) return;
-    navigator.clipboard.writeText(props.code);
+    navigator.clipboard.writeText(
+      `${import.meta.env.VITE_APP_URL}/rooms/${props.code}`
+    );
     dialogRef.current?.show();
     setTimeout(() => {
       dialogRef.current?.close();
