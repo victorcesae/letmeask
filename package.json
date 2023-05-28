@@ -2,6 +2,7 @@
   "name": "letmeask",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://letmeask-learning-victorcesae.web.app",
   "type": "module",
   "scripts": {
     "dev": "vite",
